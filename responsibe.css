@@ -1,0 +1,122 @@
+@media screen and (max-width: 576px) {
+  .cart_nav_icon {
+    display: none;
+  }
+  .notification {
+    display: none;
+  }
+  .related_apps {
+    display: none;
+  }
+  .filter_option {
+    display: none;
+  }
+  .large_device {
+    display: none;
+  }
+  .samll_device {
+    visibility: visible;
+  }
+  .navbar .logo_item {
+    width: fit-content !important;
+    background: transparent;
+  }
+  #sidebarOpen {
+    position: absolute;
+    left: 50px;
+    top: 23px;
+  }
+  .navbar_content {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+  }
+  main {
+    padding-left: 0px !important;
+  }
+  .card_items {
+    justify-content: center !important;
+  }
+  .sale_country_container {
+    width: 100%;
+  }
+  .recent_container {
+    width: 100%;
+  }
+  .top_selling_container .top_selling_table::-webkit-scrollbar {
+    display: none !important;
+  }
+  .top_selling_container .top_selling_table {
+    white-space: nowrap;
+    overflow: scroll !important;
+    width: 100% !important;
+  }
+  .sale_value_container {
+    width: 100%;
+  }
+  .profits_container {
+    width: 100%;
+  }
+  .history_container {
+    width: 100%;
+  }
+  .orders_container {
+    width: 100%;
+  }
+  .history_order_container {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .large_device {
+    display: none;
+  }
+  .samll_device {
+    visibility: visible;
+  }
+  .navbar .logo_item {
+    width: fit-content !important;
+    background: transparent;
+  }
+  #sidebarOpen {
+    position: absolute;
+    left: 60px;
+    top: 23px;
+  }
+  .navbar_content {
+    column-gap: 5px;
+    margin-left: 0px !important;
+  }
+  .navbar {
+    align-items: center !important;
+    display: flex;
+    flex-wrap: nowrap !important;
+    padding-left: 10px !important;
+  }
+  .card_items {
+    gap: 10px !important;
+    justify-content: center;
+  }
+  main {
+    padding-left: 70px !important;
+  }
+  #chart {
+    height: 250px !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .recent_and_sale_container {
+    display: flex !important;
+    flex-wrap: nowrap;
+    width: 100% !important;
+  }
+  .recent_container {
+    width: 50% !important;
+  }
+  .sale_country_container {
+    width: 50% !important;
+  }
+  .lg_full{
+    width: 100% !important;
+  }
+}

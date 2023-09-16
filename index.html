@@ -1,0 +1,1587 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Dashboard--Explore</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsibe.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar fixed-top">
+      <div class="logo_item">
+        <a href="#">
+          <i class="bx bx-menu" id="sidebarOpen"></i>
+          <img class="large_device" src="images/logo.png" alt="" />
+          <img class="samll_device" src="images/toggle-dark.png" alt="">
+        </a>
+      </div>
+
+      <div class="search_bar">
+        <input type="text" placeholder="Search for results..." />
+        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+      </div>
+
+      <div class="navbar_content ms-auto">
+        <div class="country">
+          <div class="dropdown">
+            <a
+              class="nav__main__icon"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-globe"></i>
+            </a>
+
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><img src="images/10020.jpg" alt="" /><span>France</span></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><img src="images/10021.jpg" alt="" /><span>Spanish</span></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><img src="images/10022.jpg" alt="" /><span>German</span></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><img src="images/10023.jpg" alt="" /><span>Italian</span></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="#"
+                  ><img src="images/10024.jpg" alt="" /><span>Russian</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="them_color_icon">
+          <a href="#" class="nav__main__icon"
+            ><i class="fa-solid fa-moon"></i
+          ></a>
+        </div>
+        <div class="cart_nav_icon">
+          <div class="dropdown">
+            <a
+              class="nav__main__icon"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger p-1 font-size"
+              >
+                5
+              </span>
+            </a>
+
+            <ul class="dropdown-menu">
+              <div class="cart_item_top_info">
+                <p>Cart Items</p>
+                <p class="btnn">5 Items</p>
+              </div>
+              <div class="cart_items">
+                <li>
+                  <div class="cart_item dropdown-item">
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="images/10011.png" alt="" />
+                      <div class="cart_content">
+                        <a href="#">Cactus mini plant</a>
+                        <p><small>Quantity:02</small></p>
+                        <h6 class="p-price">
+                          $1,229 <span><del>$1,799</del></span>
+                        </h6>
+                      </div>
+                    </div>
+                    <a href="#" class="del"
+                      ><i class="fa-solid fa-trash"></i
+                    ></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="cart_item dropdown-item">
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="images/10012.png" alt="" />
+                      <div class="cart_content">
+                        <a href="#">Sports Shose for men</a>
+                        <p><small>Quantity:01</small></p>
+                        <h6 class="p-price">
+                          $10,229 <span><del>$799</del></span>
+                        </h6>
+                      </div>
+                    </div>
+                    <a href="#" class="del"
+                      ><i class="fa-solid fa-trash"></i
+                    ></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="cart_item dropdown-item">
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="images/10013.png" alt="" />
+                      <div class="cart_content">
+                        <a href="#">Pink color smart watch</a>
+                        <p><small>Quantity:03</small></p>
+                        <h6 class="p-price">
+                          $5,500 <span><del>$599</del></span>
+                        </h6>
+                      </div>
+                    </div>
+                    <a href="#" class="del"
+                      ><i class="fa-solid fa-trash"></i
+                    ></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="cart_item dropdown-item">
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="images/10014.png" alt="" />
+                      <div class="cart_content">
+                        <a href="#">red leafs plant</a>
+                        <p><small>Quantity:01</small></p>
+                        <h6 class="p-price">
+                          $15,229 <span><del>$199</del></span>
+                        </h6>
+                      </div>
+                    </div>
+                    <a href="#" class="del"
+                      ><i class="fa-solid fa-trash"></i
+                    ></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="cart_item b-none dropdown-item">
+                    <div class="d-flex align-items-center gap-3">
+                      <img src="images/10011.png" alt="" />
+                      <div class="cart_content">
+                        <a href="#">Cactus mini plant</a>
+                        <p><small>Quantity:02</small></p>
+                        <h6 class="p-price">
+                          $10,229 <span><del>$799</del></span>
+                        </h6>
+                      </div>
+                    </div>
+                    <a href="#" class="del"
+                      ><i class="fa-solid fa-trash"></i
+                    ></a>
+                  </div>
+                </li>
+              </div>
+              <div class="checkout_btn">
+                <button type="button">Checkout</button>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="notification">
+          <div class="dropdown">
+            <a
+              class="nav__main__icon"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-bell"></i>
+              <span
+                class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-info text-white p-1 font-size"
+              >
+                5
+              </span>
+            </a>
+
+            <ul class="dropdown-menu">
+              <div class="cart_item_top_info">
+                <p>Notifications</p>
+                <p class="btnn">5 Unread</p>
+              </div>
+              <div class="notification_items">
+                <li>
+                  <div class="cart_item dropdown-item">
+                    <div class="d-flex align-items-center gap-2">
+                      <img
+                        src="images/10032.jpg"
+                        alt=""
+                        width="30px"
+                        height="30px"
+                      />
+                      <div class="cart_content">
+                        <a href="#">Olivia jenms</a>
+                        <p>
+                          <small>Congratulation for new template start</small>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="check_it">
+                      <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                      <p>2 min ago</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="cart_item dropdown-item">
+                    <div class="d-flex align-items-center gap-2">
+                      <img
+                        src="images/10032.jpg"
+                        alt=""
+                        width="30px"
+                        height="30px"
+                      />
+                      <div class="cart_content">
+                        <a href="#">Olivia jenms</a>
+                        <p>
+                          <small>Congratulation for new template start</small>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="check_it">
+                      <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                      <p>2 min ago</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="cart_item dropdown-item">
+                    <div class="d-flex align-items-center gap-2">
+                      <img
+                        src="images/10032.jpg"
+                        alt=""
+                        width="30px"
+                        height="30px"
+                      />
+                      <div class="cart_content">
+                        <a href="#">Olivia jenms</a>
+                        <p>
+                          <small>Congratulation for new template start</small>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="check_it">
+                      <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                      <p>2 min ago</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="cart_item dropdown-item">
+                    <div class="d-flex align-items-center gap-2">
+                      <img
+                        src="images/10032.jpg"
+                        alt=""
+                        width="30px"
+                        height="30px"
+                      />
+                      <div class="cart_content">
+                        <a href="#">Olivia jenms</a>
+                        <p>
+                          <small>Congratulation for new template start</small>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="check_it">
+                      <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                      <p>2 min ago</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="cart_item dropdown-item b-none">
+                    <div class="d-flex align-items-center gap-2">
+                      <img
+                        src="images/10032.jpg"
+                        alt=""
+                        width="30px"
+                        height="30px"
+                      />
+                      <div class="cart_content">
+                        <a href="#">Olivia jenms</a>
+                        <p>
+                          <small>Congratulation for new template start</small>
+                        </p>
+                      </div>
+                    </div>
+                    <div class="check_it">
+                      <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                      <p>2 min ago</p>
+                    </div>
+                  </div>
+                </li>
+              </div>
+              <div class="checkout_btn">
+                <button type="button">View All</button>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="related_apps">
+          <a
+            href="#"
+            class="nav__main__icon"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"
+            ><i class="fa-solid fa-shapes"></i
+          ></a>
+
+          <div
+            class="offcanvas offcanvas-end"
+            tabindex="-1"
+            id="offcanvasRight"
+            aria-labelledby="offcanvasRightLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                Related Apps
+              </h5>
+              <a
+                class="close_btn"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+                href="#"
+                ><i class="fa-regular fa-circle-xmark"></i
+              ></a>
+            </div>
+            <div class="divider"></div>
+            <div class="offcanvas-body">
+              <div class="row">
+                <div class="col-lg-6 col-sm-12 text-center">
+                  <a href="#" class="apps_item">
+                    <div class="pt-3 pb-3 border app">
+                      <i class="fa-solid fa-calendar-days text-success"></i>
+                      <p>Calender</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-6 col-sm-12 text-center">
+                  <a href="#" class="apps_item">
+                    <div class="pt-3 pb-3 border app">
+                      <i
+                        class="fa-regular fa-envelope bg-info-subtle text-info"
+                      ></i>
+                      <p>mail</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-6 col-sm-12 text-center">
+                  <a href="#" class="apps_item">
+                    <div class="pt-3 pb-3 border app">
+                      <i
+                        class="fa-regular fa-user text-warning bg-warning-subtle"
+                      ></i>
+                      <p>Profile</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-6 col-sm-12 text-center">
+                  <a href="#" class="apps_item">
+                    <div class="pt-3 pb-3 border app">
+                      <i
+                        class="fa-solid fa-comments bg-secondary-subtle text-secondary"
+                      ></i>
+                      <p>Chats</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-6 col-sm-12 text-center">
+                  <a href="#" class="apps_item">
+                    <div class="pt-3 pb-3 border app">
+                      <i
+                        class="fa-solid fa-phone bg-danger-subtle text-danger"
+                      ></i>
+                      <p>Contacts</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-lg-6 col-sm-12 text-center">
+                  <a href="#" class="apps_item">
+                    <div class="pt-3 pb-3 border app">
+                      <i
+                        class="fa-solid fa-gear bg-primary-subtle text-primary"
+                      ></i>
+                      <p>Settings</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="filter_option">
+          <a
+            class="nav__main__icon"
+            href="#"
+            ><i class="fa-solid fa-arrow-down-1-9"></i
+          ></a>
+        </div>
+        <div class="dropdown-center nav_profile">
+          <a class="profile" data-bs-toggle="dropdown" aria-expanded="false" href="#"><img src="images/10031.jpg" alt="">
+            Harry Jones
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"><i class="fa-regular fa-user"></i> Profile</a></li>
+            <li><div class="divider_2"></div></li>
+            <li><a class="dropdown-item" href="#"><i class="fa-regular fa-message"></i> Message</a></li>
+            <li><div class="divider_2"></div></li>
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-gear"></i> Setting</a></li>
+            <li><div class="divider_2"></div></li>
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-circle-info"></i> Help</a></li>
+            <li><div class="divider_2"></div></li>
+            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></li>            
+          </ul>
+        </div>
+        <div class="dropdown-center nav_setting">
+          <a class="nav__main__icon setting"  data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" href="#">
+            <i class="fa-solid fa-gear"></i>
+          </a>
+       
+        </div>
+        
+      </div>
+    </nav>
+    <!-- sidebar -->
+    <nav class="sidebar">
+      <div class="menu_content">
+        <ul class="menu_items">
+          <div class="menu_title menu_dahsboard"></div>
+          <!-- duplicate or remove this li tag if you want to add or remove navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div href="#" class="nav_link submenu_item active">
+              <span class="navlink_icon">
+                <i class="bx bx-home-alt"></i>
+              </span>
+              <span class="navlink ">Dashboard <span class="dashbord_notification">12</span></span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink active"><span><i class="fa-regular fa-circle-dot"></i></span>Sales</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Crypto</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Jobs</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>CRM</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Ecommerce</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Enalytics</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Projects</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>NFT</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>HRM</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Personal</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Stocks</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Course</a>
+            </ul>
+          </li>
+          <!-- end -->
+
+          <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div class="menu_title menu_editor"></div>
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="fa-brands fa-uikit"></i>
+              </span>
+              <span class="navlink">Advanced Ui</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Accordiuns & Collups</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Carousel</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Draggable Cards</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Moduls & Closes</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Navbar</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Offcanvas</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Placeholder</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Rating</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Scrollspy</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Swiper JS</a>
+            </ul>
+          </li>
+          <!-- end -->
+        </ul>
+          <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div class="menu_title menu_page"></div>
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="fa-solid fa-file"></i>
+              </span>
+              <span class="navlink">Pages</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Accordiuns & Collups</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Carousel</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Draggable Cards</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Moduls & Closes</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Navbar</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Offcanvas</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Placeholder</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Rating</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Scrollspy</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Swiper JS</a>
+            </ul>
+          </li>
+          <!-- end -->
+          <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="fa-solid fa-u"></i>
+              </span>
+              <span class="navlink">Utilites</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Avatar</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Borders</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Breakpoints</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Colors</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Columns</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Flex</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Guters</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Helpers</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Position</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Additional Contents</a>
+            </ul>
+          </li>
+          <!-- end -->
+          <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="fa-solid fa-lock"></i>
+              </span>
+              <span class="navlink">Authentication</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Coming Soon</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Create Password 
+                <i class="bx bx-chevron-right arrow-left"></i>
+              </a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Lock Screen
+                <i class="bx bx-chevron-right arrow-left"></i>
+              </a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Reseat Password 
+                <i class="bx bx-chevron-right arrow-left"></i>
+              </a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Sign Up
+                <i class="bx bx-chevron-right arrow-left"></i>
+              </a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Sign In 
+                <i class="bx bx-chevron-right arrow-left"></i>
+              </a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Two Step Verification
+                <i class="bx bx-chevron-right arrow-left"></i>
+              </a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Under Maintenance</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>No Internet</a>
+            </ul>
+          </li>
+          <!-- end -->
+            <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="fa-solid fa-circle-exclamation"></i>
+              </span>
+              <span class="navlink">Error</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>401-Error</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>404-Error</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>500-Error</a>
+            </ul>
+          </li>
+          <!-- end -->
+            <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="fa-brands fa-intercom"></i>
+              </span>
+              <span class="navlink">Apps</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Full Calender</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Gallery</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Sweet Alerts</a>
+            </ul>
+          </li>
+          <!-- end -->
+            <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="fa-regular fa-face-smile"></i>
+              </span>
+              <span class="navlink">Icons</span>
+            </div>
+          </li>
+          <!-- end -->
+            <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="fa-solid fa-table-columns"></i>
+              </span>
+              <span class="navlink">Widgets <span class="hot">Hot</span></span>
+            </div>
+          </li>
+          <!-- end -->
+
+           <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div class="menu_title web_apps"></div>
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="fa-solid fa-underline"></i>
+              </span>
+              <span class="navlink">Ui Elements</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Alerts</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Badge</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Breadcrumb</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Buttons</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Buttons Group</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Cards</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Dropdowns</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Images & Figures</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>List Group</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Navs & Tabs</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Object Fit</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Pagination</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Popvers</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>progress</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Spinner</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Toasts</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Tooltips</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Typography</a>
+            </ul>
+          </li>
+          <!-- end -->
+           <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="fa-solid fa-bars"></i>
+              </span>
+              <span class="navlink">Nested Menu</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Nested-1</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Nested-2
+                <i class="bx bx-chevron-right arrow-left"></i>
+              </a>
+            </ul>
+          </li>
+          <!-- end -->
+            <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div class="menu_title maps_charts"></div>
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="fa-solid fa-map-location-dot"></i>
+              </span>
+              <span class="navlink">Maps</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Google Maps</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Leaflet Maps</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Vector Maps</a>
+              </ul>
+          </li>
+          <!-- end -->
+      
+        <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+      <!-- start -->
+      <li class="item">
+        <div href="#" class="nav_link submenu_item">
+          <span class="navlink_icon">
+            <i class="fa-solid fa-chart-line"></i>
+          </span>
+          <span class="navlink">Charts</span>
+          <i class="bx bx-chevron-right arrow-left"></i>
+        </div>
+
+        <ul class="menu_items submenu">
+          <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Apex Charts
+            <i class="bx bx-chevron-right arrow-left"></i>
+          </a>
+          <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Chartjs Charts</a>
+          <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Echart Charts</a>
+        </ul>
+      </li>
+      <!-- end -->
+
+         <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div class="menu_title form_tabel"></div>
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="fa-brands fa-wpforms"></i>
+              </span>
+              <span class="navlink">Form</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Form Elements
+                <i class="bx bx-chevron-right arrow-left"></i>
+              </a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Floating Lebels</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>From Layouts</a>
+              <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Form Editors
+                <i class="bx bx-chevron-right arrow-left"></i>
+                <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Validation</a>
+                <a href="#" class="nav_link sublink"><span><i class="fa-regular fa-circle-dot"></i></span>Select2</a>
+              </a>
+            </ul>
+          </li>
+          <!-- end -->
+         <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div class="menu_title form_tabel"></div>
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="fa-solid fa-table-columns"></i>
+              </span>
+              <span class="navlink">Tables <span class="table">3</span></span>
+            </div>
+          </li>
+          <!-- end -->
+        </ul>
+
+        <!-- Sidebar Open / Close -->
+        <div class="bottom_content">
+          <div class="bottom expand_sidebar">
+            <span> Expand</span>
+            <i class="bx bx-log-in"></i>
+          </div>
+          <div class="bottom collapse_sidebar">
+            <span> Collapse</span>
+            <i class="bx bx-log-out"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+<main>
+  <!-- Main Top nav Related -->
+  <div class="main_top_nav">
+    <p class="main_top_nav_title fs-4">Dashboard</p>
+                 <div class="main_nav_item">
+      <a href="#">Dashboard</a>
+      <span><i class="fa-solid fa-angle-right"></i></span>
+      <p class="active">Sales</p>
+    </div>
+  </div>
+  <!-- Main Top nav Related -->
+  <section class="main_container">
+
+<!-- Card Section Here -->
+<div class="card_container">
+  <div class="card_items">
+    <div class="card_item p-4 bg-white rounded shadow">
+                 <div>
+          <p class="card_subtitle">Total Sales</p>
+          <p class="card_price">$18,645</p>
+          <p class="card_analytics bg-primary-subtle text-primary">+24% <span><i class="fa-solid fa-arrow-down"></i></span></p>
+        </div>
+        <div class="card_icon_view">
+          <span class="bg-primary-subtle text-primary pe-3 mb-2 ps-3 pt-2 pb-2 rounded
+          "><i class="fa-solid fa-cart-shopping"></i></span>
+          <a href="#">View More</a>
+        </div>
+    </div>
+    <div class="card_item p-4 bg-white rounded shadow">
+        <div>
+                 <p class="card_subtitle">Total Revenue</p>
+          <p class="card_price">$34,676</p>
+          <p class="card_analytics bg-danger-subtle text-danger">+0.26% <span><i class="fa-solid fa-arrow-down"></i></span></p>
+        </div>
+        <div class="card_icon_view">
+          <span class="bg-danger-subtle text-danger pe-3 mb-2 ps-3 pt-2 pb-2 rounded
+          "><i class="fa-solid fa-cart-shopping"></i></span>
+          <a href="#">View More</a>
+                   </div>
+    </div>
+    <div class="card_item p-4 bg-white rounded shadow">
+        <div>
+          <p class="card_subtitle">Total Products</p>
+          <p class="card_price">26,231</p>
+          <p class="card_analytics bg-info-subtle text-info">+06% <span><i class="fa-solid fa-arrow-down"></i></span></p>
+        </div>
+        <div class="card_icon_view">
+          <span class="bg-info-subtle text-info pe-3 mb-2 ps-3 pt-2 pb-2 rounded
+          "><i class="fa-solid fa-cart-shopping"></i></span>
+          <a href="#">View More</a>
+        </div>
+    </div>
+    <div class="card_item card_item_4 p-4 bg-white rounded shadow">
+        <div>
+          <p class="card_subtitle">Total Expenses</p>
+          <p class="card_price">$73,579</p>
+          <p class="card_analytics bg-success-subtle text-success">+10% <span><i class="fa-solid fa-arrow-down"></i></span></p>
+        </div>
+        <div class="card_icon_view">
+          <span class="bg-success-subtle text-success pe-3 mb-2 ps-3 pt-2 pb-2 rounded
+          "><i class="fa-solid fa-cart-shopping"></i></span>
+          <a href="#">View More</a>
+        </div>
+    </div>
+    <div class="card_item card_item_4 p-4 bg-white rounded shadow">
+        <div>
+          <p class="card_subtitle">Total Subscribers</p>
+          <p class="card_price">14,68</p>
+          <p class="card_analytics bg-warning-subtle text-warning">+16% <span><i class="fa-solid fa-arrow-down"></i></span></p>
+        </div>
+        <div class="card_icon_view">
+          <span class="bg-warning-subtle text-warning pe-3 mb-2 ps-3 pt-2 pb-2 rounded
+          "><i class="fa-solid fa-cart-shopping"></i></span>
+          <a href="#">View More</a>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- Card Section End -->
+
+<!-- Recent And Country Related -->
+
+<div class="recent_country_container mt-5">
+  <div class="row">
+    <!-- Recent Here -->
+    <div class=" col-lg-6 lg_full">
+    <div class="recent_and_sale_container">
+      <div class="recent_container bg-white p-0 rounded ">
+        <p class="pt-2 pb-2  ps-3">Recent Activity</p>
+        <div class="divider mb-2"></div>
+        <div class="activity_item">
+          <div>
+            <i class="task_icon"></i>
+            <p class="activity_title">Task Finished</p>
+            <p class="activity_link color_second">Adam Berry finished task on <span><a href="#">AngularJS Template</a></span></p>
+          </div>
+          <p class="publish_date color_second">09 July 2022</p>
+        </div>
+        <div class="activity_item">
+          <div>
+            <i class="task_icon bg-info"></i>
+            <p class="activity_title">Task Overdue</p>
+            <p class="activity_link color_second">Adam Berry finished task on <span><a class="text-info" href="#">Integreted managment</a></span></p>
+          </div>
+          <p class="publish_date color_second">09 June 2022</p>
+        </div>
+        <div class="activity_item">
+          <div>
+            <i class="task_icon bg-danger"></i>
+            <p class="activity_title">Task Finished</p>
+            <p class="activity_link color_second">Adam Berry finished task on <span><a class="text-danger" href="#">Integreted managment</a></span></p>
+          </div>
+          <p class="publish_date color_second">09 June 2022</p>
+        </div>
+        <div class="activity_item">
+          <div>
+            <i class="task_icon bg-success"></i>
+            <p class="activity_title">Task Overdue</p>
+            <p class="activity_link color_second">Adam Berry finished task on <span><a class="text-success" href="#">Integreted managment</a></span></p>
+          </div>
+          <p class="publish_date color_second">09 June 2022</p>
+        </div>
+        <div class="activity_item">
+          <div>
+            <i class="task_icon bg-warning"></i>
+            <p class="activity_title">Task Finished</p>
+            <p class="activity_link color_second">Adam Berry finished task on <span><a class="text-warning" href="#">Integreted managment</a></span></p>
+          </div>
+          <p class="publish_date color_second">09 June 2022</p>  
+        </div>
+      </div>
+          <!-- Recent End -->
+      <!-- sale by country -->
+      <div class="sale_country_container bg-white p-0 rounded ">
+<div class="sale_country_top_nav">
+  <p>Sales By Country</p>
+  <a href="#" class="second_btn">View All</a>
+</div>
+<div class="divider"></div>
+<table class="table ps-3">
+  <thead>
+    <tr>
+      <th scope="col">Country</th>
+      <th scope="col">Sales</th>
+      <th scope="col">Bounce</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="images/10020.jpg" alt="" class="country_img"> Canada</td>
+      <td>2500</td>
+      <td><p class="sale_rate rounded bg-info-subtle text-info">24.4%</p></td>
+    </tr>
+    <tr>
+      <td><img src="images/10021.jpg" alt="" class="country_img"> German</td>
+      <td>846</td>
+      <td><p class="sale_rate rounded bg-danger-subtle text-danger">22.33%</p></td>
+    </tr>
+    <tr>
+      <td><img src="images/10022.jpg" alt="" class="country_img"> Mexico</td>
+      <td>1,024</td>
+      <td><p class="sale_rate rounded bg-warning-subtle text-warning">14.8%</p></td>
+    </tr>
+    <tr>
+      <td><img src="images/10023.jpg" alt="" class="country_img"> Russia</td>
+      <td>482</td>
+      <td><p class="sale_rate rounded bg-primary-subtle text-primary">05.8%</p></td>
+    </tr>
+    <tr>
+      <td><img src="images/10024.jpg" alt="" class="country_img"> USA</td>
+      <td>1,420</td>
+      <td><p class="sale_rate rounded bg-success-subtle text-success">13.08%</p></td>
+    </tr>
+  </tbody>
+</table>
+      </div>
+      <!-- sale by country -->
+    </div>
+    </div>
+
+
+     <!-- Sale Statics Here -->
+     <div class=" col-lg-12 bg-white mt-5 rounded pt-3 pb-3 sale_statics_container">
+      <div class="sale_top_nav">
+        <p class="sale_title">Sale Statics</p>
+        <div class="d-flex align-items-center gap-3">
+          <a href="#" class="second_btn"><span><i class="fa-solid fa-arrow-down-wide-short"></i></span> Filter</a>
+
+          <div class="dropdown-center">
+            <a class="dropdown_btn" href="#" data-bs-toggle="dropdown" aria-expanded="false"><span><i class="fa-regular fa-calendar-check"></i></span>This Week <span><i class="fa-solid fa-chevron-down"></i></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Last Month</a></li>
+              <li><a class="dropdown-item" href="#">Last Week</a></li>
+              <li><a class="dropdown-item" href="#">Share Report</a></li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div id="chart">
+      </div>
+    </div>
+    <!-- Sale Statics End -->
+  </div>
+</div>
+<!-- Recent And Country Related -->
+
+<!-- Top Selling Section Here -->
+<div class="top_selling_container bg-white rounded mt-5">
+<div class="top_selling_nav">
+  <p>Top Selling Products</p>
+  <div class="dropdown">
+    <a class="top_selling_nav_dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+  </div>
+</div>
+<div class="divider"></div>
+<div class="top_selling_table">
+  <table class="table mt-3 pb-3">
+    <thead>
+      <tr>
+        <th scope="col">Product Name</th>
+        <th scope="col">Stock</th>
+        <th scope="col">Price</th>
+        <th scope="col">Sold</th>
+        <th scope="col">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="images/10025.jpg" alt=""><a class="text-decoration-none text-black" href="#">Sports Shose For Men</a></td>
+        <td><p class="pe-2 ps-2  p_stock rounded text-success bg-success-subtle ">In Stock</p></td>
+        <td>$73.800</td>
+        <td>1,534</td>
+        <td class="d-flex align-items-center gap-3"><a href="#" class="edit_btn"><i class="fa-solid fa-pencil"></i><span class="tooltips">Edit</span></a><a href="#" class="delete_btn"><i class="fa-regular fa-trash-can"><span class="tooltips">Delete</span></i></a></td>
+      </tr>
+      <tr>
+        <td><img src="images/10026.jpg" alt=""><a class="text-decoration-none text-black" href="#">Beautiful Flower Frame</a></td>
+        <td><p class="pe-2 ps-2  p_stock rounded text-info bg-info-subtle ">Flow Left</p></td>
+        <td>$73.800</td>
+        <td>4,987</td>
+        <td class="d-flex align-items-center gap-3"><a href="#" class="edit_btn"><i class="fa-solid fa-pencil"></i><span class="tooltips">Edit</span></a><a href="#" class="delete_btn"><i class="fa-regular fa-trash-can"><span class="tooltips">Delete</span></i></a></td>
+      </tr>
+      <tr>
+        <td><img src="images/10027.jpg" alt=""><a class="text-decoration-none text-black" href="#">Small Alarm Watch</a></td>
+        <td><p class="pe-2 ps-2  p_stock rounded text-danger bg-danger-subtle ">Out Of Stock</p></td>
+        <td>$13.800</td>
+        <td>87,875</td>
+        <td class="d-flex align-items-center gap-3"><a href="#" class="edit_btn"><i class="fa-solid fa-pencil"></i><span class="tooltips">Edit</span></a><a href="#" class="delete_btn"><i class="fa-regular fa-trash-can"><span class="tooltips">Delete</span></i></a></td>
+      </tr>
+      <tr>
+        <td><img src="images/10028.jpg" alt=""><a class="text-decoration-none text-black" href="#">black Colord Lens Camera</a></td>
+        <td><p class="pe-2 ps-2  p_stock rounded text-success bg-success-subtle ">In Stock</p></td>
+        <td>$14.600</td>
+        <td>98,876</td>
+        <td class="d-flex align-items-center gap-3"><a href="#" class="edit_btn"><i class="fa-solid fa-pencil"></i><span class="tooltips">Edit</span></a><a href="#" class="delete_btn"><i class="fa-regular fa-trash-can"><span class="tooltips">Delete</span></i></a></td>
+      </tr>
+      <tr>
+        <td><img src="images/10029.jpg" alt=""><a class="text-decoration-none text-black" href="#">Smart Phone</a></td>
+        <td><p class="pe-2 ps-2  p_stock rounded text-danger bg-danger-subtle ">Out Of Stock</p></td>
+        <td>$13.800</td>
+        <td>87,875</td>
+        <td class="d-flex align-items-center gap-3"><a href="#" class="edit_btn"><i class="fa-solid fa-pencil"></i><span class="tooltips">Edit</span></a><a href="#" class="delete_btn"><i class="fa-regular fa-trash-can"><span class="tooltips">Delete</span></i></a></td>
+      </tr>
+      <tr>
+        <td><img src="images/10030.jpg" alt=""><a class="text-decoration-none text-black" href="#">Black Colord Headset</a></td>
+        <td><p class="pe-2 ps-2  p_stock rounded text-info bg-info-subtle ">Flow Left</p></td>
+        <td>$23.800</td>
+        <td>87,875</td>
+        <td class="d-flex align-items-center gap-3"><a href="#" class="edit_btn"><i class="fa-solid fa-pencil"></i><span class="tooltips">Edit</span></a><a href="#" class="delete_btn"><i class="fa-regular fa-trash-can"><span class="tooltips">Delete</span></i></a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+<!-- Top Selling Section End -->
+
+<!-- Sale Value And Monthly Profits Section Here -->
+<div class="valu_profits_container mt-5 mb-5">
+  <!-- Sale Value -->
+  <div class="sale_value_container bg-white rounded">
+<div class="sale_top_nav">
+  <p>Sales Values</p>
+  <div class="dropdown">
+  <a href="#" class="view_btn" data-bs-toggle="dropdown" aria-expanded="false">View All <span><i class="fa-solid fa-angle-down"></i></span></a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Today</a></li>
+    <div class="divider"></div>
+    <li><a class="dropdown-item" href="#">This Week</a></li>
+    <div class="divider"></div>
+    <li><a class="dropdown-item" href="#">Last Week</a></li>
+  </ul>
+</div>
+</div>
+<div class="divider"></div>
+<div id="chartTwo">
+
+</div>
+<div class="divider"></div>
+<div class="sale_propertise p-0">
+  <div class="r_border pe-4 pb-3">
+    <p><span><i class="fa-solid fa-circle text-primary"></i></span> Sale Items</p>
+    <h4>186,75.00</h4>
+  </div>
+  <div class="ps-4 pb-3">
+    <p><span><i class="fa-solid fa-circle text-light"></i></span> Sale Revenue</p>
+    <h4>$122.39</h4>
+  </div>
+</div>
+  </div>
+  <!-- Sale Value -->
+
+  <!-- Monthly Profits -->
+  <div class="profits_container bg-white rounded">
+    <div class="sale_top_nav">
+      <p>Monthly Profits</p>
+      <div class="dropdown">
+      <a href="#" class="view_btn" data-bs-toggle="dropdown" aria-expanded="false">View All <span><i class="fa-solid fa-angle-down"></i></span></a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Today</a></li>
+        <div class="divider"></div>
+        <li><a class="dropdown-item" href="#">This Week</a></li>
+        <div class="divider"></div>
+        <li><a class="dropdown-item" href="#">Last Week</a></li>
+      </ul>
+    </div>
+    </div>
+    <div class="divider"></div>
+    <div class="profits_propertise p-3">
+      <div>
+        <h3>$78,344</h3>
+        <p class="color_second">Total Profit Growth Of 85%</p>
+      </div>
+      <div id="chartThree"></div>
+    </div>
+    <div class="divider"></div>
+    <div class="profits_item d-flex align-items-center gap-3 p-3">
+<span><i class="fa-solid fa-shirt bg-warning-subtle text-warning py-2 px-2 rounded"></i></span>
+<div class="progres">
+  <div class="progress_title d-flex justify-content-between align-items-center ">
+    <h6>Fashon</h6>
+    <p><span><i class="fa-solid fa-arrow-trend-up text-success"></i></span> 93.0%</p>
+  </div>
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" style="width: 93%"></div>
+  </div>
+</div>
+    </div>
+    <div class="profits_item d-flex align-items-center gap-3 p-3">
+<span><i class="fa-solid fa-house bg-success-subtle text-success py-2 px-2 rounded"></i></span>
+<div class="progres">
+  <div class="progress_title d-flex justify-content-between align-items-center ">
+    <h6>Home Furniture</h6>
+    <p><span><i class="fa-solid fa-arrow-trend-up text-success"></i></span> 97.0%</p>
+  </div>
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 97%"></div>
+  </div>
+</div>
+    </div>
+    <div class="profits_item d-flex align-items-center gap-3 p-3">
+<span><i class="fa-solid fa-plug-circle-plus bg-danger-subtle text-danger py-2 px-2 rounded"></i></span>
+<div class="progres">
+  <div class="progress_title d-flex justify-content-between align-items-center ">
+    <h6>Electronics</h6>
+    <p><span><i class="fa-solid fa-arrow-trend-up text-success"></i></span> 80.0%</p>
+  </div>
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 80%"></div>
+  </div>
+</div>
+    </div>
+    <div class="profits_item d-flex align-items-center gap-3 p-3">
+<span><i class="fa-solid fa-bolt bg-info-subtle text-info py-2 px-2 rounded"></i></span>
+<div class="progres">
+  <div class="progress_title d-flex justify-content-between align-items-center ">
+    <h6>Groceries</h6>
+    <p><span><i class="fa-solid fa-arrow-trend-up text-success"></i></span> 80.0%</p>
+  </div>
+  <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" style="width: 80%"></div>
+  </div>
+</div>
+    </div>
+  </div>
+  <!-- Monthly Profits -->
+</div>
+<!-- Sale Value And Monthly Profits Section End -->
+
+
+<!-- History And Orders-->
+<div class="history_order_container">
+  <!-- History -->
+  <div class="history_container bg-white rounded">
+    <div class="sale_top_nav">
+      <p>Transitions History</p>
+      <div class="dropdown">
+      <a href="#" class="view_btn" data-bs-toggle="dropdown" aria-expanded="false">View All <span><i class="fa-solid fa-angle-down"></i></span></a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Today</a></li>
+        <div class="divider"></div>
+        <li><a class="dropdown-item" href="#">This Week</a></li>
+        <div class="divider"></div>
+        <li><a class="dropdown-item" href="#">Last Week</a></li>
+      </ul>
+    </div>
+    </div>
+    <div class="divider"></div>
+    <div class="p-2 d-flex align-items-center justify-content-between atm_item">
+    <div class="d-flex align-items-center gap-2 ">
+      <span><i class="fa-solid fa-money-check-dollar fa-1x rounded-circle p-2 text-success bg-success-subtle"></i></span>
+      <h6>ATM Withdrawl 
+        <span><p class="color_second">Just Now</p></span>
+      </h6>
+    </div>
+        <h6 class="text-success ms-auto">$2.45,000</h6>
+    </div>
+    <div class="p-2 d-flex align-items-center justify-content-between">
+    <div class="d-flex align-items-center gap-2">
+      <span><i class="fa-solid fa-mobile-screen fa-1x rounded-circle p-2 text-danger bg-danger-subtle"></i></span>
+      <h6>Movies Subscription 
+        <span><p class="color_second">Yesterday</p></span>
+      </h6>
+    </div>
+        <h6 class="text-danger ms-auto">-$100.00</h6>
+    </div>
+    <div class="p-2 d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center gap-2">
+        <span><i class="fa-solid fa-money-check-dollar fa-1x rounded-circle p-2 text-success bg-success-subtle"></i></span>
+        <h6>ATM Withdrawl 
+          <span><p class="color_second">Just Now</p></span>
+        </h6>
+      </div>
+          <h6 class="text-success ms-auto">$2.45,000</h6>
+      </div>
+      <div class="p-2 d-flex align-items-center justify-content-between">
+        <div class="d-flex align-items-center gap-2">
+          <span><i class="fa-solid fa-money-check-dollar fa-1x rounded-circle p-2 text-success bg-success-subtle"></i></span>
+          <h6>ATM Withdrawl 
+            <span><p class="color_second">Just Now</p></span>
+          </h6>
+        </div>
+            <h6 class="text-success ms-auto">$2.45,000</h6>
+        </div>
+        <div class="p-2 d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center gap-2">
+            <span><i class="fa-solid fa-money-check-dollar fa-1x rounded-circle p-2 text-success bg-success-subtle"></i></span>
+            <h6>ATM Withdrawl 
+              <span><p class="color_second">Just Now</p></span>
+            </h6>
+          </div>
+              <h6 class="text-success ms-auto">$2.45,000</h6>
+          </div>
+          <div class="p-2 d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center gap-2">
+              <span><i class="fa-solid fa-money-check-dollar fa-1x rounded-circle p-2 text-success bg-success-subtle"></i></span>
+              <h6>ATM Withdrawl 
+                <span><p class="color_second">Just Now</p></span>
+              </h6>
+            </div>
+                <h6 class="text-success ms-auto">$2.45,000</h6>
+            </div>
+  </div>
+  <!-- History -->
+
+  <!-- Orders -->
+  <div class="orders_container bg-white rounded">
+    <div class="sale_top_nav">
+      <p>Recent Orders</p>
+      <div class="dropdown">
+      <a href="#" class="view_btn" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Today</a></li>
+        <div class="divider"></div>
+        <li><a class="dropdown-item" href="#">This Week</a></li>
+        <div class="divider"></div>
+        <li><a class="dropdown-item" href="#">Last Week</a></li>
+      </ul>
+    </div>
+    </div>
+    <div class="divider"></div>
+    <div class="order_table table-responsive">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">S.NO</th>
+            <th scope="col">Customer Name</th>
+            <th scope="col">Order ID</th>
+            <th scope="col">Order Date</th>
+            <th scope="col">Price</th>
+            <th scope="col">Status</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">01</th>
+            <td><div class="d-flex align-items-center gap-1">
+              <img src="images/10031.jpg" alt="" class="rounded-circle" width="30px">
+            <div>
+              <p>Patty Furniture 
+              </p>
+              <p class="color_second d-block">patty@sputro.com</p>
+            </div>
+            </div>
+          </td>
+            <td><a href="#">#123SP91</a></td>
+            <td>01 Apr 2023</td>
+            <td>$73.800</td>
+            <td><p class="text-success bg-success-subtle py-1 px-2 rounded">Delivered</p></td>
+            <td><div class="d-flex align-items-center gap-2">
+              <a href="#" class="edit_btn"><i class="fa-solid fa-pencil"></i><span class="tooltips">Edit</span></a><a href="#" class="delete_btn"><i class="fa-regular fa-trash-can"><span class="tooltips">Delete</span></i></a>
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">02</th>
+            <td><div class="d-flex align-items-center gap-1">
+              <img src="images/10032.jpg" alt="" class="rounded-circle" width="30px">
+            <div>
+              <p>Aliya Grat
+              </p>
+              <p class="color_second d-block">aliya@sputro.com</p>
+            </div>
+            </div>
+          </td>
+            <td><a href="#">#123SP92</a></td>
+            <td>02 Apr 2023</td>
+            <td>$93.800</td>
+            <td><p class="text-success bg-success-subtle py-1 px-2 rounded">Delivered</p></td>
+            <td><div class="d-flex align-items-center gap-2">
+              <a href="#" class="edit_btn"><i class="fa-solid fa-pencil"></i><span class="tooltips">Edit</span></a><a href="#" class="delete_btn"><i class="fa-regular fa-trash-can"><span class="tooltips">Delete</span></i></a>
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">03</th>
+            <td><div class="d-flex align-items-center gap-1">
+              <img src="images/10033.jpg" alt="" class="rounded-circle" width="30px">
+            <div>
+              <p>Peg Legge
+              </p>
+              <p class="color_second d-block">legge@sputro.com</p>
+            </div>
+            </div>
+          </td>
+            <td><a href="#">#123SP93</a></td>
+            <td>03 Apr 2023</td>
+            <td>$23.00</td>
+            <td><p class="text-danger bg-danger-subtle py-1 px-2 rounded">Cancelled</p></td>
+            <td><div class="d-flex align-items-center gap-2">
+              <a href="#" class="edit_btn"><i class="fa-solid fa-pencil"></i><span class="tooltips">Edit</span></a><a href="#" class="delete_btn"><i class="fa-regular fa-trash-can"><span class="tooltips">Delete</span></i></a>
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">04</th>
+            <td><div class="d-flex align-items-center gap-1">
+              <img src="images/10034.jpg" alt="" class="rounded-circle" width="30px">
+            <div>
+              <p>Meouren Leg
+              </p>
+              <p class="color_second d-block">morune@sputro.com</p>
+            </div>
+            </div>
+          </td>
+            <td><a href="#">#123SP94</a></td>
+            <td>04 Apr 2023</td>
+            <td>$44.050</td>
+            <td><p class="text-info bg-info-subtle py-1 px-2 rounded">Pending</p></td>
+            <td><div class="d-flex align-items-center gap-2">
+              <a href="#" class="edit_btn"><i class="fa-solid fa-pencil"></i><span class="tooltips">Edit</span></a><a href="#" class="delete_btn"><i class="fa-regular fa-trash-can"><span class="tooltips">Delete</span></i></a>
+            </div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">05</th>
+            <td><div class="d-flex align-items-center gap-1">
+              <img src="images/10035.jpg" alt="" class="rounded-circle" width="30px">
+            <div>
+              <p>Olive ZView
+              </p>
+              <p class="color_second d-block">olive@sputro.com</p>
+            </div>
+            </div>
+          </td>
+            <td><a href="#">#123SP95</a></td>
+            <td>05 Apr 2023</td>
+            <td>$677.00</td>
+            <td><p class="text-warning bg-warning-subtle py-1 px-2 rounded">Shipped</p></td>
+            <td><div class="d-flex align-items-center gap-2">
+              <a href="#" class="edit_btn"><i class="fa-solid fa-pencil"></i><span class="tooltips">Edit</span></a><a href="#" class="delete_btn"><i class="fa-regular fa-trash-can"><span class="tooltips">Delete</span></i></a>
+            </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!-- Orders -->
+</div>
+<!-- History And Orders-->
+</section>
+<footer class="text-center bg-white p-3 mt-5">
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, atque.</p>
+</footer>
+</main>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/337002c4cc.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Charts Js -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script>
+        var options = {
+          series: [{
+          name: 'Sales',
+          data: [4, 3, 10, 9, 29, 19, 22, 9, 12, 7, 19, 5, 13, 9, 17, 2, 7, 5]
+        }],
+          chart: {
+          height: 350,
+          type: 'line',
+        },
+        forecastDataPoints: {
+          count: 7
+        },
+        stroke: {
+          width: 5,
+          curve: 'smooth'
+        },
+        xaxis: {
+          type: 'datetime',
+          categories: ['1/11/2000', '2/11/2000', '3/11/2000', '4/11/2000', '5/11/2000', '6/11/2000', '7/11/2000', '8/11/2000', '9/11/2000', '10/11/2000', '11/11/2000', '12/11/2000', '1/11/2001', '2/11/2001', '3/11/2001','4/11/2001' ,'5/11/2001' ,'6/11/2001'],
+          tickAmount: 10,
+          labels: {
+            formatter: function(value, timestamp, opts) {
+              return opts.dateFormatter(new Date(timestamp), 'dd MMM')
+            }
+          }
+        },
+        title: {
+          text: 'Forecast',
+          align: 'left',
+          style: {
+            fontSize: "16px",
+            color: '#666'
+          }
+        },
+        fill: {
+          type: 'gradient',
+          gradient: {
+            shade: 'dark',
+            gradientToColors: [ '#FDD835'],
+            shadeIntensity: 1,
+            type: 'horizontal',
+            opacityFrom: 1,
+            opacityTo: 1,
+            stops: [0, 100, 100, 100]
+          },
+        },
+        yaxis: {
+          min: -10,
+          max: 40
+        }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+      
+      
+    
+    </script>
+
+
+    <script>
+      var options = {
+  chart: {
+    height: 280,
+    type: "radialBar"
+  },
+  
+  series: [67],
+  
+  plotOptions: {
+    radialBar: {
+      hollow: {
+        margin: 15,
+        size: "70%"
+      },
+     
+      dataLabels: {
+        showOn: "always",
+        name: {
+          offsetY: -10,
+          show: true,
+          color: "#888",
+          fontSize: "13px"
+        },
+        value: {
+          color: "#111",
+          fontSize: "30px",
+          show: true
+        }
+      }
+    }
+  },
+
+  stroke: {
+    lineCap: "round",
+  },
+  labels: ["Progress"]
+};
+
+var chart = new ApexCharts(document.querySelector("#chartTwo"), options);
+
+chart.render();
+
+    </script>
+
+
+
+    <script>
+       var options = {
+          series: [{
+            name: "Sale",
+            data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
+        }],
+          chart: {
+          height: 100,
+          type: 'line',
+          zoom: {
+            enabled: false
+          }
+        },
+        dataLabels: {
+          enabled: false
+        },
+        stroke: {
+          curve: 'straight'
+        },
+        grid: {
+          row: {
+            colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+            opacity: 0.5
+          },
+        },
+
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chartThree"), options);
+        chart.render();
+      
+    </script>
+    <!-- Charts Js -->
+  </body>
+</html>
